@@ -1,8 +1,16 @@
 aid: stride
 name: Stride
-description: 'Stride is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Stride is a multichain liquid staking protocol built as a Cosmos SDK appchain
+  (chain-id stride-1) and secured by Cosmos Hub interchain security. Users stake
+  proof-of-stake assets such as ATOM, TIA, DYDX, OSMO, DYM, SAGA, and LUNA and
+  receive liquid staking receipt tokens (stATOM, stTIA, and others) that keep
+  accruing staking rewards while remaining usable across DeFi for trading,
+  lending, collateral, and liquidity provision. Stride is IBC-connected and uses a
+  Hyperlane bridge for cross-chain reach. Its machine-readable surface is the
+  Cosmos SDK gRPC and REST (LCD) query interface plus IBC, wrapped by the official
+  stridejs TypeScript SDK; Stride does not publish a REST OpenAPI. Backed by
+  Multicoin Capital.
 url: https://raw.githubusercontent.com/api-evangelist/stride/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,36 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 tags:
 - Company
 - Crypto Web3
+- Liquid Staking
+- Cosmos
+- Blockchain
+- Staking
+- DeFi
+- IBC
+- SDK
+image: https://stride.zone/favicon.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stride-domain-security.yml
 - type: Website
   url: https://stride.zone
+- type: DeveloperPortal
+  url: https://docs.stride.zone
+- type: Documentation
+  url: https://docs.stride.zone/docs/getting-started
+- type: GettingStarted
+  url: https://docs.stride.zone/docs/getting-started
+- type: GitHubOrganization
+  url: https://github.com/Stride-Labs
+- type: Blog
+  url: https://stride.zone/blog
+- type: Support
+  url: https://support.stride.zone
+- type: Packages
+  url: packages/stride-packages.yml
+- type: SDKs
+  url: packages/stride-packages.yml
+- type: LLMsTxt
+  url: llms/stride-llms.txt
+- type: WellKnown
+  url: well-known/stride-well-known.yml

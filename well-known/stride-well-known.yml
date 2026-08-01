@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: probe of /.well-known/ paths on Stride hosts
+note: >-
+  No /.well-known/ discovery documents are published on any Stride host. The
+  website and docs are Framer-hosted single-page apps that return an HTTP 200 SPA
+  shell for unknown paths, so only genuine 404 responses are recorded here as
+  absence. Stride is a Cosmos SDK appchain; its machine-readable surface is the
+  chain's gRPC/REST (LCD) query interface, not HTTP discovery documents.
+hosts:
+  - host: https://stride.zone
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://docs.stride.zone
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://app.stride.zone
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}

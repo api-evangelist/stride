@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/Stride-Labs/stridejs
+packages:
+  - language: javascript
+    registry: npm
+    name: stridejs
+    url: https://www.npmjs.com/package/stridejs
+    install: npm install stridejs
+    version: 0.15.0
+    license: MIT
+    official: true
+    repository: https://github.com/Stride-Labs/stridejs
+    description: >-
+      The official JavaScript/TypeScript SDK for the Stride blockchain. Wraps CosmJS
+      for Stride: signing and broadcasting transactions, wallet integration (Keplr,
+      Leap, Ledger), IBC transfer path management, address/key utilities, and
+      protobuf-generated query/message clients for Stride's modules.

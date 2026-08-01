@@ -1,0 +1,30 @@
+# Stride
+
+> Stride is a multichain liquid staking protocol built as a Cosmos SDK appchain (chain-id `stride-1`) secured by Cosmos Hub interchain security. Users stake tokens (ATOM, TIA, DYDX, OSMO, and 10+ others) and receive liquid staking receipt tokens (e.g. stATOM, stTIA) that keep accruing staking rewards while remaining usable across DeFi. Stride's machine-readable interface is the Cosmos SDK gRPC/REST (LCD) query surface plus IBC, wrapped by the official stridejs SDK — it does not publish a REST OpenAPI.
+
+## Overview
+- Category: Crypto / Web3 — liquid staking, Cosmos ecosystem
+- Chain: Cosmos SDK appchain, chain-id `stride-1`, IBC-connected, Hyperlane bridge
+- Backed by: Multicoin Capital
+
+## Apps
+- [Stride App](https://app.stride.zone/): stake and manage liquid staking positions (wallet-connect)
+- [Bridge](https://bridge.stride.zone/): bridge assets to and from Stride
+
+## Docs
+- [Documentation](https://docs.stride.zone/docs/getting-started): getting started, node setup, relayers, governance, integration
+- [Why Integrate Liquid Staking](https://docs.stride.zone): integration guide and Stride Reward Share Program
+- [Support Center](https://support.stride.zone/): help and FAQs
+
+## Code
+- [Stride chain (Go)](https://github.com/Stride-Labs/stride): the core Cosmos SDK blockchain, Apache-2.0
+- [stridejs (TypeScript SDK)](https://github.com/Stride-Labs/stridejs): official JS/TS SDK, `npm install stridejs`, MIT
+- [Mainnet](https://github.com/Stride-Labs/mainnet): connect to stride-1 mainnet (seeds, genesis)
+- [Explorer](https://github.com/Stride-Labs/explorer): block explorer (ping.pub fork)
+- [Audits](https://github.com/Stride-Labs/audits): security audit reports
+
+## More
+- [Website](https://stride.zone)
+- [Blog](https://stride.zone/blog)
+- [GitHub Organization](https://github.com/Stride-Labs)
+- [Ambassador Program](https://ambassador.stride.zone/)
