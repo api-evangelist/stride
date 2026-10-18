@@ -50,6 +50,17 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
+- Web3
+- Liquid Staking
+- Cosmos
+- Blockchain
+- Staking
+- DeFi
+- IBC
+- SDK
+- Cryptocurrency
+tags_raw:
+- Company
 - Crypto Web3
 - Liquid Staking
 - Cosmos
